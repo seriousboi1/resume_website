@@ -1,0 +1,124 @@
+#yellow_cable {
+    position: absolute;
+    margin-top:  185vw;
+}
+
+#ether_port_base1 {
+    width: 2vw;
+    height: 7vw;
+    background-color: rgb(172, 172, 172);
+}
+
+#ether_port_base2 {
+    width: 1vw;
+    height: 7vw;
+    background-color: rgb(92, 92, 92);
+    margin-top: -7vw;
+    margin-left: 2vw;
+}
+
+#metal_con {
+    width: 1vw;
+    height: 2.5vw;
+    background-color: rgb(195, 195, 195);
+    margin-left: 3vw;
+    margin-top: -4.3vw;
+}
+
+#plastic_con {
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 0.25vw;
+    background-color: rgb(255, 218, 97);
+    margin-left: 3.7vw;
+    margin-top: -2.5vw;
+}
+
+#yellow_cable1 {
+    width: 15vw;
+    height: 0.8vw;
+    background-color: rgb(255, 218, 97);
+    border-radius: 10vw;
+    margin-left: 5.9vw;
+    margin-top: -1.6vw;
+
+}
+
+#yellow_ether_head {
+    width: 7vw;
+    display: flex;
+    margin-left: 18vw;
+    margin-top: -1.6vw;
+    transition: transform 1s ease-in-out;
+}
+
+#yellow_plastic_head {
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: rgb(255, 218, 97);
+    border-radius: 0.25vw;
+    z-index: 0;
+    transition: transform 1s ease-in-out;
+}
+
+.yellow_metal_base {
+    background-color: rgb(195, 195, 195);
+}
+
+#yellow_metal_head_base1 {
+    width: 1vw;
+    height: 2.5vw;
+    z-index: 1;
+    margin-left: -0.25vw;
+    transition: transform 1s ease-in-out;
+}
+
+#yellow_metal_head_base2 {
+    width: 2vw;
+    height: 2.25vw;
+    transition: transform 1s ease-in-out;
+}
+
+#yellow_metal_head_base3 {
+    width: 0.5vw;
+    height: 1.85vw;
+    margin-top: 0.4vw;
+    transition: transform 1s ease-in-out;
+}
+
+#yellow_shadowed_metal_head {
+    width: 1.2vw;
+    height: 1.85vw;
+    margin-top: 0.4vw;
+    background-color: rgb(92, 92, 92);
+    transition: transform 1s ease-in-out;
+}
+
+.yellow_gold_pins {
+    background-color: rgb(250, 210, 30);
+    height: 1.15vw;
+    width: 0.15vw;
+    margin-top: 0.7vw;
+    display: flex;
+}
+
+#yellow_gold_pin1 {
+    margin-left: 0.2vw;
+}
+
+#yellow_gold_pin2 {
+    margin-top: -1.15vw;
+    margin-left: 0.55vw;
+}
+
+#yellow_gold_pin3 {
+    margin-top: -1.15vw;
+    margin-left: 0.9vw;
+}
+
+#yellow_clear_plastic {
+    width: 1.7vw;
+    height: 0.4vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: -1.7vw;
+}

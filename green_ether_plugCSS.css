@@ -1,0 +1,145 @@
+#green_cable {
+    margin-top: 80vw;
+    margin-left: 90vw;
+    position: absolute;
+}
+
+#green_con_1 {
+    width: 2.5vw;
+    height: 1.5vw;
+    background-color: rgb(72, 187, 101);
+    margin-top: -0.3vw;
+    margin-left: 0.45vw;
+}
+
+#green_con_2 {
+    width: 1.75vw;
+    height: 0.3vw;
+    background-color:rgb(72, 187, 101);
+    margin-left: 0.8vw;
+}
+
+#green_cable1 {
+    width: 0.8vw;
+    height: 15vw;
+    background-color:rgb(72, 187, 101);
+    border-radius: 10vw;
+    margin-left: 1.25vw;
+    margin-top: -0.3vw;
+}
+
+#green_cable2 {
+    width: 23vw;
+    height: 0.8vw;
+    background-color: rgb(72, 187, 101);
+    border-radius: 10vw;
+    margin-left: -20.95vw;
+    margin-top: -0.6vw;
+}
+
+#green_cable3 {
+    width: 0.8vw;
+    height: 7vw;
+    background-color:rgb(72, 187, 101);
+    border-radius: 10vw;
+    margin-top: -7vw;
+    margin-left: -21vw;
+}
+
+#green_cable4 {
+    width: 33vw;
+    height: 0.8vw;
+    background-color: rgb(72, 187, 101);
+    border-radius: 10vw;
+    margin-left: -53.3vw;
+    margin-top: -7vw;
+    transform-origin: 100% 50%;
+    transition: transform 2s ease;
+}
+
+#green_ether_head {
+    margin-left: -55vw;
+    margin-top: -1.7vw;
+    display: flex;
+    transition: transform 2s ease;
+}
+
+#green_plastic_head {
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: rgb(72, 187, 101);
+    border-radius: 0.25vw;
+    z-index: 0;
+}
+
+.green_metal_base {
+    background-color: rgb(195, 195, 195);
+}
+
+#green_metal_head_base1 {
+    width: 1.1vw;
+    height: 2.5vw;
+    z-index: 1;
+    margin-left: -3.5vw;
+}
+
+#green_metal_head_base2 {
+    width: 2vw;
+    height: 2.25vw;
+    margin-left: -3.1vw;
+}
+
+#green_metal_head_base3 {
+    width: 0.5vw;
+    height: 1.85vw;
+    margin-top: 0.4vw;
+    margin-left: -2.5vw;
+}
+
+#green_shadowed_metal_head {
+    width: 1.2vw;
+    height: 1.85vw;
+    margin-top: 0.4vw;
+    background-color: rgb(92, 92, 92);
+    margin-left: -1.7vw;
+}
+
+.green_gold_pins {
+    background-color: rgb(250, 210, 30);
+    height: 1.15vw;
+    width: 0.15vw;
+    margin-top: 0.7vw;
+    display: flex;
+}
+
+#green_gold_pin1 {
+    margin-left: 0.2vw;
+}
+
+#green_gold_pin2 {
+    margin-top: -1.15vw;
+    margin-left: 0.55vw;
+}
+
+#green_gold_pin3 {
+    margin-top: -1.15vw;
+    margin-left: 0.9vw;
+}
+
+#green_clear_plastic {
+    width: 1.7vw;
+    height: 0.4vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: -1.2vw;
+}
+
+.green_connect-animation #green_cable4 {
+    transform: scaleX(2.1);
+    transition: transform 1.5s ease;
+    border-radius: 0.3vw;
+}
+
+.green_connect-animation #green_ether_head {
+    transform: translateX(-33.5vw);
+    transition: transform 1.5s ease;
+}

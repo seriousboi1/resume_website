@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="mainCSS.css">
+    <link rel="stylesheet" href="ether_plugCSS.css">
+    <link rel="stylesheet" href="red_ether_plugCSS.css">
+    <link rel="stylesheet" href="green_ether_plugCSS.css">
+    <link rel="stylesheet" href="yellow_ether_plugCSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+    <div id="main_image_block">
+        <div id="main_label">Codes:</div><span class="animation_typed" id="at"></span>
+    </div>
+
+    <div id="cable">
+        <div id="blue_cable1"></div>
+        <div id="blue_cable2"></div>
+        <div id="blue_cable3"></div>
+        <div id="blue_cable4"></div>                    
+        <div id="ether_head">
+            <div id="blue_plastic_head"></div>
+            <div id="metal_head_base1" class="metal_base"></div>
+            <div id="metal_head_base2" class="metal_base"></div>
+            <div id="metal_head_base3" class="metal_base"></div>
+            <div id="shadowed_metal_head">
+                <div id="gold_pin1" class="gold_pins"></div>
+                <div id="gold_pin2" class="gold_pins"></div>
+                <div id="gold_pin3" class="gold_pins"></div>
+            </div>
+            <div id="clear_plastic"></div>
+        </div>   
+    </div>
+
+    <div id="switch_box">
+        <div id="switch_metal_base"></div>
+        <div id="switch_shadowed_metal_base"></div>
+        <div id="port1_place">
+            <div id="port1_base1"></div>
+            <div id="port1_base2"></div>
+        </div>
+        <div id="port2_place">
+        </div>
+    </div>
+
+    <div id="red_cable">
+        <div id="red_connection">
+            <div id="red_con_1"></div>
+            <div id="red_con_2"></div>
+        </div>
+        <div id="red_cable1"></div>
+        <div id="red_cable2"></div>
+        <div id="red_cable3"></div>
+        <div id="red_cable4"></div>
+        <div id="red_cable5"></div>
+        <div id="red_cable6"></div>
+        <div id="red_ether_head">
+            <div id="red_plastic_head"></div>
+            <div id="red_metal_head_base1" class="red_metal_base"></div>
+            <div id="red_metal_head_base2" class="red_metal_base"></div>
+            <div id="red_metal_head_base3" class="red_metal_base"></div>
+            <div id="red_shadowed_metal_head">
+                <div id="red_gold_pin1" class="red_gold_pins"></div>
+                <div id="red_gold_pin2" class="red_gold_pins"></div>
+                <div id="red_gold_pin3" class="red_gold_pins"></div>
+            </div>
+            <div id="red_clear_plastic"></div>
+        </div>
+    </div>
+
+    <div id="red_switch_box">
+        <div id="red_switch_metal_base"></div>
+        <div id="red_switch_shadowed_metal_base"></div>
+        <div id="red_port1_place"></div>
+        <div id="red_port2_place"></div>
+        <div id="red_port2_base1"></div>
+        <div id="red_port2_base2"></div>
+        <div id="red_port3_place"></div>
+    </div>
+
+    <div id="gray_cable">
+        <div id="gray_connection">
+            <div id="gray_con_1"></div>
+            <div id="gray_con_2"></div>
+        </div>
+        <div id="gray_cable1"></div>
+        <div id="gray_ether_head">
+            <div id="gray_plastic_head"></div>
+            <div id="gray_metal_head_base1" class="gray_metal_base"></div>
+            <div id="gray_metal_head_base2" class="gray_metal_base"></div>
+            <div id="gray_metal_head_base3" class="gray_metal_base"></div>
+            <div id="gray_shadowed_metal_head">
+                <div id="gray_gold_pin1" class="gray_gold_pins"></div>
+                <div id="gray_gold_pin2" class="gray_gold_pins"></div>
+                <div id="gray_gold_pin3" class="gray_gold_pins"></div>
+            </div>
+            <div id="gray_clear_plastic"></div>
+        </div>            
+    </div>
+
+    <div id="green_cable">
+        <div id= "green_connection">
+            <div id="green_con_1"></div>
+            <div id="green_con_2"></div>
+        </div>
+        <div id="green_cable1"></div>
+        <div id="green_cable2"></div>
+        <div id="green_cable3"></div>
+        <div id="green_cable4"></div>
+        <div id="green_cable5"></div>
+        <div id="green_cable6"></div>
+        <div id="green_ether_head">
+            <div id="green_plastic_head"></div>
+            <div id="green_metal_head_base1" class="green_metal_base"></div>
+            <div id="green_metal_head_base2" class="green_metal_base"></div>
+            <div id="green_metal_head_base3" class="green_metal_base"></div>
+            <div id="green_shadowed_metal_head">
+                <div id="green_gold_pin1" class="green_gold_pins"></div>
+                <div id="green_gold_pin2" class="green_gold_pins"></div>
+                <div id="green_gold_pin3" class="green_gold_pins"></div>
+            </div>
+            <div id="green_clear_plastic"></div>
+        </div>
+    </div>
+
+    <div id="yellow_cable">
+        <div id="ether_port_base1"></div>
+        <div id="ether_port_base2"></div>
+        <div id="yellow_con">
+            <div id="metal_con"></div>
+            <div id="plastic_con"></div>
+        </div>
+        <div id="yellow_cable1"></div>
+        <div id="yellow_ether_head">
+            <div id="yellow_plastic_head"></div>
+            <div id="yellow_metal_head_base1" class="red_metal_base"></div>
+            <div id="yellow_metal_head_base2" class="red_metal_base"></div>
+            <div id="yellow_metal_head_base3" class="red_metal_base"></div>
+            <div id="yellow_shadowed_metal_head">
+                <div id="yellow_gold_pin1" class="yellow_gold_pins"></div>
+                <div id="yellow_gold_pin2" class="yellow_gold_pins"></div>
+                <div id="yellow_gold_pin3" class="yellow_gold_pins"></div>
+            </div>
+            <div id="yellow_clear_plastic"></div>
+        </div>
+    </div>
+
+    <div id="pc">
+        
+    </div>
+
+    <div id="textbox_1" class="textboxes visible">
+        <span class="sub-title" id="title1">The Moment I Found Coding</span><br>
+        During my time in 6th grade, our teachers introduced us to <span class="highlight">CodeMonkey</span>, an engaging educational
+        platform designed to impart coding skills to children through a series of interactive games and puzzles.
+        As I delved into playing CodeMonkey during school hours, I quickly realized its profound impact on my interest
+        in coding, igniting a passion that has since shaped my aspirations for the future. Next, I went to middle and high school, and graduated with high grades.
+    </div>
+
+    <div id="textbox_2" class="textboxes visible">
+        <span class="sub-title" id="title2">My Journey Continued With Coding</span><br>
+        After discovering my passion for code, I decided that I want to further develop my skills, although on my own it was difficult. One day in the 8th grade, a representative of
+        a leading course called <span id="highlight">Mamram - LeaderApp Technologies</span>, entered our class and introduced us to a coding course. I decided to enroll into the course,
+        and right there and then, I started developing complex codes. Overtime, my developing skills improved. In Mamram, we also studied Cybersecurity, Encryptions, Networking, Assembling a
+        computer and etc.
+    </div>
+    
+    <span class="title" id="title3">Skills</span><br>
+    <div id="textbox_3" class="textboxes">
+        From the courses I enrolled into and self learning, I achieved a variety of skills:
+        1. Learning how to code in 8 coding languages: <span id="CS">C#</span>, <span id="C">C</span>, <span id="CPP">C++</span>, <span id="Python">Python</span>,
+        <span id="Java">Java</span>, <span id="HTML-CSS-JS">HTML-CS-JS</span>, <span id="SQL">SQL</span>, <span id="Lua">Lua</span>.<br>
+        2. Learning how the Networking system works, how to trace it and how to "sniff" it using WireShark, including packet types<br>
+        3. Learning Cybersecurity and Encryption, including encryption types, hacking tools and a list of attacks.<br>
+        4. How to assemble and disassemble a computer, including what each part does.
+    </div>
+
+    <span class="title" id="title4">Leading Projects</span>
+
+    <span id="sub-title4" class="sub2x-title">RecursiveCipher</span>
+    <div id="textbox_4" class="textboxes visible">
+        RecursiveCipher is an advanced encryption algorithm that transforms plaintext into ciphertext through a multi-stage process.
+        It operates across 10 versions, each mapping letters to 100 unique symbols. The encryption begins by randomly selecting a 
+        version and encoding each letter into 100 randomized symbols, which are sent in blocks to complicate interception by attackers, and complicating the methods of MITM attackers.
+        Upon receipt, RecursiveCipher uses recursion to decrypt the message, ensuring secure and reliable communication.
+    </div>
+
+    <div id="demo_RecursiveCipher">
+        <video id="demo_video1" src="images/demo_video1.mp4"  autoplay loop controls width="600">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <span id="sub-title5" class="sub2x-title">PGD</span>
+    <div id="textbox_5" class="textboxes visible">
+        PGD is a project that consists of three sophisticated codes leveraging TensorFlow and Mediapipe. The first code tracks hand gestures in real-time,
+        accurately recognizing various movements using a trained model. The second code implements finger position tracking, effectively
+        turning the index finger into a mouse cursor, allowing for precise movement and clicking actions based on finger location. The
+        third code adjusts the system volume by measuring the distance between the thumb and index finger, providing a dynamic and intuitive
+        volume control mechanism. These codes collectively enable seamless and efficient computer interaction through hand gestures.
+    </div>
+
+    <div id="demo_PGD">
+        <video id="demo_video2" src="images/demo_video2.mp4"  autoplay loop controls muted width="600">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <span id="sub-title6" class="sub2x-title">ModBot</span>
+    <div id="textbox_6" class="textboxes visible">
+        ModBot is equipped to handle all your Discord server needs efficiently. From managing users with Kick and Ban features to maintaining chat clarity
+        with Clear Chat, I ensure smooth server operation. The Level system promotes engagement, while my Logging System keeps track of crucial events. 
+        For communication, Say allows clear announcements, and Manual Shutdown ensures controlled operations. Additionally, I facilitate role management 
+        with Promote and Demote functionalities, enforce rules with Antilink and Warning Systems, and verify users with a secure Verification System. Together,
+        we'll maintain a safe and enjoyable server environment effortlessly.
+    </div>
+
+    <div id="demo_ModBot">
+        <video id="demo_video3" src="images/demo_video3.mp4"  autoplay loop controls muted width="600">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="mainJS.js"></script>
+    <py-script></py-script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+/* Ethernet Cable Design */
+
+#cable {
+    margin-left: 10vw;
+    margin-top: -0.5vw;
+    width: 48vw;
+    height: auto;
+    position: absolute;
+    z-index: -2;
+}
+
+#blue_cable1 {
+    width: 0.8vw;
+    height: 25vw;
+    background-color: rgb(75, 82, 172);
+    border-radius: 1vw;
+}
+
+#blue_cable2 {
+    height: 0.8vw;
+    width: 75vw;
+    background-color: rgb(75, 82, 172);
+    border-radius: 1vw;
+    margin-top: -0.8vw;
+}
+
+#blue_cable3 {
+    width: 0.8vw;
+    height: 27vw;
+    background-color: rgb(75, 82, 172);
+    border-radius: 1vw;
+    margin-left: 74.2vw;
+    margin-top: -0.75vw;
+}
+
+#blue_cable4 {
+    height: 0.8vw;
+    width: 35vw;
+    background-color: rgb(75, 82, 172);
+    border-radius: 0.5vw;
+    margin-top: -0.8vw;
+    margin-left: 40vw;
+    transform-origin: 100% 50%;
+    transition: transform 2s ease;
+}
+
+#ether_head {
+    margin-left: 38vw;
+    margin-top: -1.7vw;
+    display: flex;
+    transition: transform 2s ease;
+}
+
+#blue_plastic_head {
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: rgb(75, 82, 172);
+    border-radius: 0.25vw;
+    z-index: 0;
+}
+
+.metal_base {
+    background-color: rgb(195, 195, 195);
+}
+
+#metal_head_base1 {
+    width: 1.1vw;
+    height: 2.5vw;
+    z-index: 1;
+    margin-left: -3.5vw;
+}
+
+#metal_head_base2 {
+    width: 2vw;
+    height: 2.25vw;
+    margin-left: -3.1vw;
+}
+
+#metal_head_base3 {
+    width: 0.5vw;
+    height: 1.85vw;
+    margin-top: 0.4vw;
+    margin-left: -2.5vw;
+}
+
+#shadowed_metal_head {
+    width: 1.2vw;
+    height: 1.85vw;
+    margin-top: 0.4vw;
+    background-color: rgb(92, 92, 92);
+    margin-left: -1.7vw;
+}
+
+.gold_pins {
+    background-color: rgb(250, 210, 30);
+    height: 1.15vw;
+    width: 0.15vw;
+    margin-top: 0.7vw;
+    display: flex;
+}
+
+#gold_pin1 {
+    margin-left: 0.2vw;
+}
+
+#gold_pin2 {
+    margin-top: -1.15vw;
+    margin-left: 0.55vw;
+}
+
+#gold_pin3 {
+    margin-top: -1.15vw;
+    margin-left: 0.9vw;
+}
+
+#clear_plastic {
+    width: 1.7vw;
+    height: 0.4vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: -1.2vw;
+}
+
+/* Switch Box */
+
+#switch_box {
+    margin-left: 2vw;
+    margin-top: 47vw;
+    transform: scaleX(-1);
+    position: absolute;
+}
+
+#switch_metal_base {
+    width: 10vw;
+    height: 7vw;
+    background-color: rgb(172, 172, 172);
+}
+
+#switch_shadowed_metal_base {
+    width: 1.5vw;
+    height: 7vw;
+    background-color: rgb(92, 92, 92);
+    margin-top: -7vw;
+    margin-left: 10vw;
+}
+
+#port1_place {
+    width: 3vw;
+    height: 2.2vw;
+    background-color: rgb(195, 195, 195);
+    margin-top: -4.5vw;
+    margin-left: 1.2vw;
+}
+
+#port1_base1 {
+    width: 2.5vw;
+    height: 1.5vw;
+    background-color: rgb(49, 49, 49);
+    margin-left: 0.25vw;
+}
+
+#port1_base2 {
+    width: 1.75vw;
+    height: 0.3vw;
+    background-color: rgb(49, 49, 49);
+    margin-left: 0.65vw;
+}
+
+#port2_place {
+    width: 3vw;
+    height: 2.3vw;
+    background-color: rgb(195, 195, 195);
+    margin-top: -2.3vw;
+    margin-left: 5.7vw;
+}
+
+.blue_connect-animation #blue_cable4 {
+    transform: scaleX(2.2);
+    transition: transform 1.5s ease;
+}
+
+.blue_connect-animation #ether_head {
+    transform: translateX(-34vw);
+    transition: transform 1.5s ease;
+}
+
+#animateButton {
+    margin-top: 2vw;
+    position: absolute;
+}
