@@ -22,7 +22,7 @@ body, html {
 
 #main_image_block::before {
     content: "";
-    background-image: url("images/background.png");
+    background-image: url("background.png");
     background-size: cover;
     background-position: center;
     filter: brightness(0.4);
@@ -228,7 +228,7 @@ body, html {
 #demo_RecursiveCipher {
     width: 30vw;
     height: 18vw;
-    background-image: url('images/gradient.png');
+    background-image: url('gradient.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -252,7 +252,7 @@ body, html {
 #demo_PGD {
     width: 37vw;
     height: 22vw;
-    background-image: url('images/gradient2.png');
+    background-image: url('gradient2.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -276,7 +276,7 @@ body, html {
 #demo_ModBot {
     width: 37vw;
     height: 22vw;
-    background-image: url('images/gradient3.png');
+    background-image: url('gradient3.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
